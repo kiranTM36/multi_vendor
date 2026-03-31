@@ -10,6 +10,9 @@ const productSchema = new mongoose.Schema({
         type : String,
         required : true,
     },
+    noItem:{
+        type : Number,
+    },
     description : {
         type : String,
         required : true,
